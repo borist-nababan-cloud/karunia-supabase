@@ -1,0 +1,19 @@
+{
+  "name": "karunia-supabase",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Supabase-native schema for Karunia Motor (Phase 1: schema + SPK trigger)",
+  "scripts": {
+    "supabase": "supabase",
+    "start": "supabase start",
+    "stop": "supabase stop",
+    "status": "supabase status",
+    "reset": "supabase db reset",
+    "push": "supabase db push",
+    "migration:new": "supabase migration new",
+    "types": "supabase gen types typescript --local --schema public > types/db.generated.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
