@@ -1,0 +1,24 @@
+{
+  "module": "Supabase Backend",
+  "environment": [
+    "local",
+    "staging",
+    "production"
+  ],
+  "rules_to_follow": [
+    "RLS enabled",
+    "No destructive migrations without backup"
+  ],
+  "sync_partner": "n8n (for MySQL legacy sync)",
+  "agent_role": "Backend Specialist",
+  "capabilities": [
+    "SQL Migration",
+    "RLS Policy Enforcement",
+    "Database Hardening"
+  ]
+  // ,
+  // "restrictions": [
+  //   "Do not touch React UI code",
+  //   "Do not modify Tailwind classes"
+  // ]
+}
