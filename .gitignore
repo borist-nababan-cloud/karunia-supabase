@@ -30,3 +30,7 @@ node_modules/
 *.md
 !README.md
 .env*
+.env
+*.sql
+*.md
+docs/
